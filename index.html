@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootcamp Web Sederhana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#beranda" class="logo">Bootcamp<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- BERANDA -->
+  <header id="beranda" class="hero container">
+    <div class="hero-text">
+      <span class="badge">Tugas Bootcamp • HTML + CSS</span>
+      <h1>Selamat Datang di Website Sederhana Kami</h1>
+      <p>
+        Website satu halaman ini dibuat murni dengan
+        <strong>HTML</strong> dan <strong>CSS</strong> — cepat,
+        ringan, dan responsif.
+      </p>
+      <div class="btn-group">
+        <a href="#profil" class="btn btn-primary">Lihat Profil Tim</a>
+        <a href="#kontak" class="btn btn-outline">Hubungi Kami</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="images/hero.svg" alt="Ilustrasi belajar web" />
+    </div>
+  </header>
+
+  <!-- PROFIL -->
+  <section id="profil" class="container page">
+    <h2>Profil Tim Kami</h2>
+    <p class="subtitle">Dua orang di balik website sederhana ini.</p>
+    <div class="grid-2">
+      <div class="profile-card">
+        <img src="images/team-1.svg" alt="Foto Rasendriya" class="photo" />
+        <h3>Rasendriya Muhammad Adisanto</h3>
+        <p class="role">Front-End Developer</p>
+        <p>Bertanggung jawab pada struktur HTML dan styling utama website.</p>
+      </div>
+      <div class="profile-card">
+        <img src="images/team-2.svg" alt="Foto Zaidan" class="photo" />
+        <h3>Muhammad Zaidan Hadiyanto</h3>
+        <p class="role">Content &amp; Support</p>
+        <p>Bertanggung jawab pada konten, pengujian mobile, dan dokumentasi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="container page">
+    <h2>Hubungi Kami</h2>
+    <p class="subtitle">Jangan ragu untuk menghubungi tim kami.</p>
+    <div class="contact-card">
+      <h3>📞 Kontak Langsung</h3>
+      <p class="big-phone">085212114058</p>
+      <a class="btn btn-primary" href="https://wa.me/6285212114058" target="_blank" rel="noopener">Chat via WhatsApp</a>
+      <p class="muted">Aktif Senin–Jumat, 09.00–17.00 WIB</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Bootcamp Web Sederhana • Rasendriya &amp; Zaidan</p>
+    </div>
+  </footer>
+</body>
+</html>
